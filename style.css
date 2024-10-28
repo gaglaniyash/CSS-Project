@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar {
+    padding: 1rem 1.5rem;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+
+.nav-item .dropdown-menu {
+    min-width: 200px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: blueviolet;
+}
+
+.icons {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-solid {
+    margin-top: 9%;
+}
+
+.hero {
+    margin-top: 2%;
+    width: 100%;
+    height: 670px;
+    background-image: url("https://themewagon.github.io/organic/images/banner-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 0 0 3%;
+}
+
+.heading h1 {
+    font-size: 70px;
+}
+
+h1 span {
+    color: rgb(107, 178, 82);
+    font-weight: bolder;
+}
+
+.heading p {
+    padding-top: 1%;
+}
+
+#buttons {
+    padding: 2% 0 0 3%;
+}
+
+.row {
+    padding: 3% 0 0 2%;
+    ;
+}
+
+.bg-fresh {
+    background-color: #6BB252;
+    gap: 30px;
+}
+
+.bg-organic {
+    background-color: #364127;
+    gap: 30px;
+}
+
+.bg-delivery {
+    background-color: orangered;
+    gap: 22px;
+}
+
+.slider {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.text-bg-dark {
+    margin-left: -70%;
+}
+
+.section1,
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.badge {
+    margin-left: 5px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 3% 0 3%;
+    gap: 15px;
+}
+
+.sale {
+    width: 60%;
+    height: 440px;
+    background-image: url("https://themewagon.github.io/organic/images/banner-ad-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 14px;
+}
+
+.offers {
+    width: 100%;
+    height: 213px;
+    background-image: url("https://themewagon.github.io/organic/images/banner-ad-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discount {
+    width: 100%;
+    height: 213px;
+    background-image: url("https://themewagon.github.io/organic/images/banner-ad-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://themewagon.github.io/organic/images/banner-newsletter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.btn-success {
+    float: right;
+}
+
+.card1 {
+    border: 1px solid rgb(240, 235, 235);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.items {
+    margin-top: 4%;
+}
+
+.services {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.services li a {
+    list-style: none;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p a {
+    color: black;
+    font-weight: 600;
+}
+
+@media (max-width: 426px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 424px) {
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .btn-dark {
+        width: 50%;
+    }
+}
+
+@media (max-width: 424px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn-dark {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 0.8rem;
+        /* Smaller text for tablets */
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .section1,
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+
+    .section1,
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
